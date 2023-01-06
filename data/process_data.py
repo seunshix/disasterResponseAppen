@@ -4,17 +4,17 @@ from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
     '''
-    Function
+    Function:
         Load the data from the csv files, merge both into
         one dataframe and return the dataframe
 
-    Input
+    Input:
         messages_filepath (str):
             file path of messages csv file
         categories_filepath (str):
             file path of categories csv file
     
-    Output
+    Output:
         df (Datframe):
             Dataframe of messages and categories merged
     
