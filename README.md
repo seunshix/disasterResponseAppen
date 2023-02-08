@@ -18,7 +18,8 @@ $ cd disaster_response_pipeline
 ```
 2. Run the ETL pipeline
 
-```$ python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
+```
+$ python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 ```
 3. Run the machine learning pipeline
 ```
